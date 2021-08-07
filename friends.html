@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css\styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display 
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__img user-component__img--xl" src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg" />
+                <div class="user-component__text">
+                    <h4 class="user-component__name">itsName</h4>
+                    <!-- <h6 class="user-component__subtitle">Tist text whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channal-header">
+                <span>Channel</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__img user-component__img--xs" src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/7r5X/image/9djEiPBPMLu_IvCYyvRPwmZkM1g.jpg" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__name user-component__name--not-bold">Channel</h4>
+                        <!-- <h6 class="user-component__subtitle">Tist text whatever</h6> -->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__reddot">.</span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
