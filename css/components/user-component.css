@@ -48,3 +48,6 @@
   display: block;
   margin-top: 12px;
 }
+.user-component__column-more i {
+  color: rgba(0, 0, 0, 0.9);
+}

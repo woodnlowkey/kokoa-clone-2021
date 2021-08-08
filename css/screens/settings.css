@@ -1,0 +1,25 @@
+.settings__setting {
+  padding: 5% 0px;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting:not([id="last"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.settings__setting i {
+  opacity: 0.9;
+  margin-right: 20px;
+}
+.settings__setting-explanation {
+  font-size: 18px;
+  opacity: 0.5;
+}
+.settings__bar {
+  margin: 2% 0px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
