@@ -7,6 +7,7 @@
 @import "components/alt-header.css";
 @import "components/user-component.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -21,4 +22,26 @@ body {
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  animation: hideSplashScreen 0.1s ease-in-out forwards;
+  animation-delay: 2s;
 }
